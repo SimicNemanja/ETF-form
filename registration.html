@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <script lang="JavaScript" src="script.js"></script>
+</head>
+<body>
+    <h1>Registration</h1>
+    <div class="form">
+        <label for="name">Name:</label>
+        <br><span class="error" id="nameError"></span>
+        <input type="text" id="name" placeholder="Input your name">
+        <br>
+        <label for="mail">Mail:</label>
+        <br><span class="Error" id="mailError"></span>
+        <input type="email"  id="mail" placeholder="Input your email">
+        <br>
+        <label for="mobile">Mobile phone:</label>
+        <br><span class="error" id="phoneError"></span>
+        <input type="text" id="mobile" placeholder="Input your mobile phone">
+        <br>
+        <label for="password">Password:</label>
+        <br><span class="error" id="passwordError"></span>
+        <input type="password" id="password" placeholder="Input password">
+        <br>
+        <label for="confirmPassword">Confirmed password:</label>
+        <br><span class="error" id="confirmedPasswordError"></span>
+        <input type="password" id="confirmedPassword" placeholder="Confirmed password">
+        <br>
+        <input type="button" class="btn" value="Registration" id="registration"><br>
+        <hr>
+        <p>Do you have account? Log in <a href="login.html">here</a> </p>
+        
+
+    </div>
+</body>
+</html>
